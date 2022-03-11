@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation type="unfinished">选择发送比特币地址</translation>
+        <translation type="unfinished">选择发送富士币地址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation type="unfinished">选择接收比特币地址</translation>
+        <translation type="unfinished">选择接收富士币地址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -63,12 +63,12 @@
     </message>
     <message>
         <source>These are your Fujicoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">这是你的比特币发币地址。发送前请确认发送数量和接收地址</translation>
+        <translation type="unfinished">这是你的富士币发币地址。发送前请确认发送数量和接收地址</translation>
     </message>
     <message>
         <source>These are your Fujicoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">这是你的比特币接收地址。点击接收选项卡中“创建新的接收地址”按钮来创建新的地址。
+        <translation type="unfinished">这是你的富士币接收地址。点击接收选项卡中“创建新的接收地址”按钮来创建新的地址。
 签名只能使用“传统”类型的地址。</translation>
     </message>
     <message>
@@ -156,7 +156,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FUJICOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">注意:如果你加密了钱包又忘记了密码，你将会丢失所有的比特币！</translation>
+        <translation type="unfinished">注意:如果你加密了钱包又忘记了密码，你将会丢失所有的富士币！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>

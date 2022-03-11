@@ -59,12 +59,12 @@
     </message>
     <message>
         <source>These are your Fujicoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">這些是你要發送過去的 比特幣地址。在發送幣之前，務必要檢查金額和接收地址是否正確。</translation>
+        <translation type="unfinished">這些是你要發送過去的 富士幣地址。在發送幣之前，務必要檢查金額和接收地址是否正確。</translation>
     </message>
     <message>
         <source>These are your Fujicoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">這些是您的比特幣接收地址。使用“接收”標籤中的“產生新的接收地址”按鈕產生新的地址。只能使用“傳統”類型的地址進行簽名。</translation>
+        <translation type="unfinished">這些是您的富士幣接收地址。使用“接收”標籤中的“產生新的接收地址”按鈕產生新的地址。只能使用“傳統”類型的地址進行簽名。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -265,7 +265,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Enter a Fujicoin address (e.g. %1)</source>
-        <translation type="unfinished">輸入 比特幣地址 (比如說 %1)</translation>
+        <translation type="unfinished">輸入 富士幣地址 (比如說 %1)</translation>
     </message>
     <message>
         <source>Inbound</source>
@@ -810,7 +810,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Send coins to a Fujicoin address</source>
-        <translation type="unfinished">發送幣給一個比特幣地址</translation>
+        <translation type="unfinished">發送幣給一個富士幣地址</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -834,11 +834,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Sign messages with your Fujicoin addresses to prove you own them</source>
-        <translation type="unfinished">用比特幣地址簽名訊息來證明位址是你的</translation>
+        <translation type="unfinished">用富士幣地址簽名訊息來證明位址是你的</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Fujicoin addresses</source>
-        <translation type="unfinished">驗證訊息是用來確定訊息是用指定的比特幣地址簽名的</translation>
+        <translation type="unfinished">驗證訊息是用來確定訊息是用指定的富士幣地址簽名的</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -908,11 +908,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Fujicoin Transaction</source>
-        <translation type="unfinished">載入部分簽名的比特幣交易</translation>
+        <translation type="unfinished">載入部分簽名的富士幣交易</translation>
     </message>
     <message>
         <source>Load Partially Signed Fujicoin Transaction from clipboard</source>
-        <translation type="unfinished">從剪貼簿載入部分簽名的比特幣交易</translation>
+        <translation type="unfinished">從剪貼簿載入部分簽名的富士幣交易</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -932,7 +932,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Open a fujicoin: URI</source>
-        <translation type="unfinished">打開一個比特幣：URI</translation>
+        <translation type="unfinished">打開一個富士幣：URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -1354,7 +1354,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Fujicoin address.</source>
-        <translation type="unfinished">輸入的地址 %1 並不是有效的比特幣地址。</translation>
+        <translation type="unfinished">輸入的地址 %1 並不是有效的富士幣地址。</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book with label "%2".</source>
@@ -1531,7 +1531,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>OpenURIDialog</name>
     <message>
         <source>Open fujicoin URI</source>
-        <translation type="unfinished">打開比特幣URI</translation>
+        <translation type="unfinished">打開富士幣URI</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -1715,7 +1715,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Connect to the Fujicoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">通過用於Tor洋蔥服務個別的SOCKS5代理連接到比特幣網路。</translation>
+        <translation type="unfinished">通過用於Tor洋蔥服務個別的SOCKS5代理連接到富士幣網路。</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
@@ -1970,7 +1970,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Fujicoin address or malformed URI parameters.</source>
-        <translation type="unfinished">沒辦法解析 URI ！可能是因為無效比特幣地址，或是 URI 參數格式錯誤。</translation>
+        <translation type="unfinished">沒辦法解析 URI ！可能是因為無效富士幣地址，或是 URI 參數格式錯誤。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2752,7 +2752,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: Invalid Fujicoin address</source>
-        <translation type="unfinished">警告: 比特幣地址無效</translation>
+        <translation type="unfinished">警告: 富士幣地址無效</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2791,7 +2791,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>The Fujicoin address to send the payment to</source>
-        <translation type="unfinished">將支付發送到的比特幣地址給</translation>
+        <translation type="unfinished">將支付發送到的富士幣地址給</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -2869,11 +2869,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive fujicoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">您可以使用您的地址簽名訊息/協議，以證明您可以接收發送給他們的比特幣。但是請小心，不要簽名語意含糊不清，或隨機產生的內容，因為釣魚式詐騙可能會用騙你簽名的手法來冒充是你。只有簽名您同意的詳細內容。</translation>
+        <translation type="unfinished">您可以使用您的地址簽名訊息/協議，以證明您可以接收發送給他們的富士幣。但是請小心，不要簽名語意含糊不清，或隨機產生的內容，因為釣魚式詐騙可能會用騙你簽名的手法來冒充是你。只有簽名您同意的詳細內容。</translation>
     </message>
     <message>
         <source>The Fujicoin address to sign the message with</source>
-        <translation type="unfinished">用來簽名訊息的 比特幣地址</translation>
+        <translation type="unfinished">用來簽名訊息的 富士幣地址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2897,7 +2897,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Sign the message to prove you own this Fujicoin address</source>
-        <translation type="unfinished">簽名這個訊息來證明這個比特幣地址是你的</translation>
+        <translation type="unfinished">簽名這個訊息來證明這個富士幣地址是你的</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2921,7 +2921,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>The Fujicoin address the message was signed with</source>
-        <translation type="unfinished">簽名這個訊息的 比特幣地址</translation>
+        <translation type="unfinished">簽名這個訊息的 富士幣地址</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -2933,7 +2933,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Fujicoin address</source>
-        <translation type="unfinished">驗證這個訊息來確定是用指定的比特幣地址簽名的</translation>
+        <translation type="unfinished">驗證這個訊息來確定是用指定的富士幣地址簽名的</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

@@ -58,7 +58,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and fujicoin: URIs)</source>
-        <translation type="unfinished">请求支付(生成二维码和比特币链接)</translation>
+        <translation type="unfinished">请求支付(生成二维码和富士币链接)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -124,7 +124,7 @@
     </message>
     <message>
         <source>Open a fujicoin: URI</source>
-        <translation type="unfinished">打开比特币: URI</translation>
+        <translation type="unfinished">打开富士币: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
