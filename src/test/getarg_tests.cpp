@@ -1,4 +1,4 @@
-// Copyright (c) 2012-2021 The Bitcoin Core developers
+// Copyright (c) 2012-2021 The Fujicoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -25,7 +25,7 @@ void ResetArgs(ArgsManager& local_args, const std::string& strArg)
         boost::split(vecArg, strArg, IsSpace, boost::token_compress_on);
 
     // Insert dummy executable name:
-    vecArg.insert(vecArg.begin(), "testbitcoin");
+    vecArg.insert(vecArg.begin(), "testfujicoin");
 
     // Convert to char*:
     std::vector<const char*> vecChar;
@@ -308,54 +308,54 @@ BOOST_AUTO_TEST_CASE(patharg)
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), win_root_path);
 #endif
 
-    const fs::path absolute_path{"/home/user/.bitcoin"};
-    ResetArgs(local_args, "-dir=/home/user/.bitcoin");
+    const fs::path absolute_path{"/home/user/.fujicoin"};
+    ResetArgs(local_args, "-dir=/home/user/.fujicoin");
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), absolute_path);
 
-    ResetArgs(local_args, "-dir=/root/../home/user/.bitcoin");
+    ResetArgs(local_args, "-dir=/root/../home/user/.fujicoin");
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), absolute_path);
 
-    ResetArgs(local_args, "-dir=/home/./user/.bitcoin");
+    ResetArgs(local_args, "-dir=/home/./user/.fujicoin");
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), absolute_path);
 
-    ResetArgs(local_args, "-dir=/home/user/.bitcoin/");
+    ResetArgs(local_args, "-dir=/home/user/.fujicoin/");
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), absolute_path);
 
-    ResetArgs(local_args, "-dir=/home/user/.bitcoin//");
+    ResetArgs(local_args, "-dir=/home/user/.fujicoin//");
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), absolute_path);
 
-    ResetArgs(local_args, "-dir=/home/user/.bitcoin/.");
+    ResetArgs(local_args, "-dir=/home/user/.fujicoin/.");
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), absolute_path);
 
-    ResetArgs(local_args, "-dir=/home/user/.bitcoin/./");
+    ResetArgs(local_args, "-dir=/home/user/.fujicoin/./");
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), absolute_path);
 
-    ResetArgs(local_args, "-dir=/home/user/.bitcoin/.//");
+    ResetArgs(local_args, "-dir=/home/user/.fujicoin/.//");
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), absolute_path);
 
-    const fs::path relative_path{"user/.bitcoin"};
-    ResetArgs(local_args, "-dir=user/.bitcoin");
+    const fs::path relative_path{"user/.fujicoin"};
+    ResetArgs(local_args, "-dir=user/.fujicoin");
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), relative_path);
 
-    ResetArgs(local_args, "-dir=somewhere/../user/.bitcoin");
+    ResetArgs(local_args, "-dir=somewhere/../user/.fujicoin");
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), relative_path);
 
-    ResetArgs(local_args, "-dir=user/./.bitcoin");
+    ResetArgs(local_args, "-dir=user/./.fujicoin");
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), relative_path);
 
-    ResetArgs(local_args, "-dir=user/.bitcoin/");
+    ResetArgs(local_args, "-dir=user/.fujicoin/");
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), relative_path);
 
-    ResetArgs(local_args, "-dir=user/.bitcoin//");
+    ResetArgs(local_args, "-dir=user/.fujicoin//");
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), relative_path);
 
-    ResetArgs(local_args, "-dir=user/.bitcoin/.");
+    ResetArgs(local_args, "-dir=user/.fujicoin/.");
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), relative_path);
 
-    ResetArgs(local_args, "-dir=user/.bitcoin/./");
+    ResetArgs(local_args, "-dir=user/.fujicoin/./");
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), relative_path);
 
-    ResetArgs(local_args, "-dir=user/.bitcoin/.//");
+    ResetArgs(local_args, "-dir=user/.fujicoin/.//");
     BOOST_CHECK_EQUAL(local_args.GetPathArg("-dir"), relative_path);
 }
 

@@ -1,9 +1,9 @@
-// Copyright (c) 2011-2021 The Bitcoin Core developers
+// Copyright (c) 2011-2021 The Fujicoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_WALLETVIEW_H
-#define BITCOIN_QT_WALLETVIEW_H
+#ifndef FUJICOIN_QT_WALLETVIEW_H
+#define FUJICOIN_QT_WALLETVIEW_H
 
 #include <consensus/amount.h>
 
@@ -52,7 +52,7 @@ private:
     ClientModel *clientModel;
 
     //!
-    //! The wallet model represents a bitcoin wallet, and offers access to
+    //! The wallet model represents a fujicoin wallet, and offers access to
     //! the list of transactions, address book and sending functionality.
     //!
     WalletModel* const walletModel;
@@ -120,4 +120,4 @@ Q_SIGNALS:
     void outOfSyncWarningClicked();
 };
 
-#endif // BITCOIN_QT_WALLETVIEW_H
+#endif // FUJICOIN_QT_WALLETVIEW_H
