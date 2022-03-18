@@ -16,8 +16,8 @@ Fujicoin is a fork of Bitcoin. This is the best coin intended fair distribution 
 
 
 For more information, as well as an immediately useable, binary version of
-the Fujicoin Core software, see http://www.fujicoin.org/, or read the
-[What is Fujicoin? page](http://www.fujicoin.org/what-is-fujicoin.php).
+the Fujicoin Core software, see https://www.fujicoin.org/, or read the
+[What is Fujicoin? page](https://www.fujicoin.org/en/what_is_fujicoin).
 
 How to Build
 ------------
