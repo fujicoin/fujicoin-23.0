@@ -18,7 +18,6 @@ QT_TS = \
   qt/locale/fujicoin_es_CL.ts \
   qt/locale/fujicoin_es_CO.ts \
   qt/locale/fujicoin_es_DO.ts \
-  qt/locale/fujicoin_es_MX.ts \
   qt/locale/fujicoin_es_VE.ts \
   qt/locale/fujicoin_et.ts \
   qt/locale/fujicoin_eu.ts \
