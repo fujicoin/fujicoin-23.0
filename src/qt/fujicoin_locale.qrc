@@ -19,7 +19,6 @@
         <file alias="es_CL">locale/fujicoin_es_CL.qm</file>
         <file alias="es_CO">locale/fujicoin_es_CO.qm</file>
         <file alias="es_DO">locale/fujicoin_es_DO.qm</file>
-        <file alias="es_MX">locale/fujicoin_es_MX.qm</file>
         <file alias="es_VE">locale/fujicoin_es_VE.qm</file>
         <file alias="et">locale/fujicoin_et.qm</file>
         <file alias="eu">locale/fujicoin_eu.qm</file>
