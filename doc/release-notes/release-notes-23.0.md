@@ -230,3 +230,144 @@ Tests
 - For the `regtest` network the activation heights of several softforks were
   set to block height 1. They can be changed by the runtime setting
   `-testactivationheight=name@height`. (#22818)
+
+Credits
+=======
+
+Thanks to everyone who directly contributed to this release:
+
+- 0xb10c
+- 0xree
+- Aaron Clauson
+- Adrian-Stefan Mares
+- agroce
+- aitorjs
+- Alex Groce
+- amadeuszpawlik
+- Amiti Uttarwar
+- Andrew Chow
+- Andrew Poelstra
+- Andrew Toth
+- anouar kappitou
+- Anthony Towns
+- Antoine Poinsot
+- Arnab Sen
+- Ben Woosley
+- benthecarman
+- Fujicoin Hodler
+- FujicoinTsunami
+- brianddk
+- Bruno Garcia
+- CallMeMisterOwl
+- Calvin Kim
+- Carl Dong
+- Cory Fields
+- Cuong V. Nguyen
+- Darius Parvin
+- Dhruv Mehta
+- Dimitri Deijs
+- Dimitris Apostolou
+- Dmitry Goncharov
+- Douglas Chimento
+- eugene
+- Fabian Jahr
+- fanquake
+- Florian Baumgartl
+- fyquah
+- Gleb Naumenko
+- glozow
+- Gregory Sanders
+- Heebs
+- Hennadii Stepanov
+- hg333
+- HiLivin
+- Igor Cota
+- Jadi
+- James O'Beirne
+- Jameson Lopp
+- Jarol Rodriguez
+- Jeremy Rand
+- Jeremy Rubin
+- Joan Karadimov
+- John Newbery
+- Jon Atack
+- João Barbosa
+- josibake
+- junderw
+- Karl-Johan Alm
+- katesalazar
+- Kennan Mell
+- Kiminuo
+- Kittywhiskers Van Gogh
+- Klement Tan
+- Kristaps Kaupe
+- Kuro
+- Larry Ruane
+- lsilva01
+- lucash-dev
+- Luke Dashjr
+- MarcoFalke
+- Martin Leitner-Ankerl
+- Martin Zumsande
+- Matt Corallo
+- Matt Whitlock
+- MeshCollider
+- Michael Dietz
+- Murch
+- naiza
+- Nathan Garabedian
+- Nelson Galdeman
+- NikhilBartwal
+- Niklas Gögge
+- node01
+- nthumann
+- Pasta
+- Patrick Kamin
+- Pavel Safronov
+- Pavol Rusnak
+- Perlover
+- Pieter Wuille
+- practicalswift
+- pradumnasaraf
+- pranabp-bit
+- Prateek Sancheti
+- Prayank
+- Rafael Sadowski
+- rajarshimaitra
+- randymcmillan
+- ritickgoenka
+- Rob Fielding
+- Rojar Smith
+- Russell Yanofsky
+- S3RK
+- Saibato
+- Samuel Dobson
+- sanket1729
+- seaona
+- Sebastian Falbesoner
+- sh15h4nk
+- Shashwat
+- Shorya
+- ShubhamPalriwala
+- Shubhankar Gambhir
+- Sjors Provoost
+- sogoagain
+- sstone
+- stratospher
+- Suriyaa Rocky Sundararuban
+- Taeik Lim
+- TheCharlatan
+- Tim Ruffing
+- Tobin Harding
+- Troy Giorshev
+- Tyler Chambers
+- Vasil Dimov
+- W. J. van der Laan
+- w0xlt
+- willcl-ark
+- William Casarin
+- zealsham
+- Zero-1729
+
+As well as to everyone that helped with translations on
+[Transifex](https://www.transifex.com/bitcoin/bitcoin/).
